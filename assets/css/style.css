@@ -9,7 +9,7 @@ Formateando margin y padding
 
 body {
 	font-family:'Roboto', sans-serif;
-  background-color: ;
+  background-color: #FFF;
 }
 
 /*
@@ -55,55 +55,89 @@ Sección Libertad
 }
 
 /*
-Contenedor Texto 80%
+Contenedor Texto 90%
 */
 
 .main {
-  width: 80%
+  width: 100%
   height: auto;
-  border: 2px solid;
-  padding:20 0 0 20px;
+  padding:20px;
 }
 
-.text-1 {
-  padding-top: 30px;
-  padding-left: 30px;
+.main h2 {
+  padding: 20px 0;
 }
 
-.text-1 p {
+.main p {
   font-weight: lighter;
 }
 
 /*
 Botón
 */
-.boton_call {
+.btn {
+  width: 140px;
+  height: auto;
+  padding: 10px;
+  margin: 17px 0;
   background-color: #007BFF;
-  margin-top: 15px;
-  width: 9%;
-  border-radius: 4px;
-  color: white;
-  
-}
-
-.boton_call p {
-  font-size: 12px;
-  padding: 7px;
-  margin-left: 4px;
+  border-radius: 5px;
 }
 
 /*
 Sección 3 imágenes
 */
+
 .card_title {
-  width: 40%;
+  margin-top: 40px;
+  width: 100%;
+  height: 500px;
 }
 
-/*
-Imagen 1
-*/
-.sea_star img {
+.card_title h3, p{
+  padding: 10px 12px 0px;
+  width: 100%;
+  margin-right: 5px;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  padding right: 10px;
+}
+
+.boton {
+  width: 140px;
+  height: auto;
+  padding: 5px;
+  margin: 20px 0;
+  background-color: #007BFF;
+  border-radius: 5px;
+}
+
+.btn_find {
+  margin: 10px;
+}
+
+.palm img {
   margin-top: 40px;
   width: 300px;
   height: 200px;
+}
+
+.prueba {
+  margin: 0 20px;
+}
+
+/*
+Footer
+*/
+footer {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 50px;
 }
