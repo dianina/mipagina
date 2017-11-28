@@ -1,8 +1,27 @@
-/*version mobile (max-width:767px)
+/*
+Estilo Responsive
+*/
+/*
+Version mobile (max-width:767px)
 */
 @media (max-width:767px) {
   [class*="col-"] {
     max-width: 100%;
     flex: none;
   }
+
+  footer{
+  width: 100%;
+  margin-top: 650px;
+  }
+
+  .fa-bars {
+  margin-bottom: 10px;
+  display: inline-block;
+  }
+
+  header ul {
+    display: none;
+  }
 }
+

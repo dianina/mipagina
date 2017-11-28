@@ -22,6 +22,15 @@ header {
   padding: 19px;
 }
 
+.fa-bars {
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin-left: 470px;
+  margin-top: -20px;
+  display: none;
+  
+}
+
 header ul {
   text-align: right;
 }
@@ -29,7 +38,7 @@ header ul {
 header ul li {
   list-style: none;
   display: inline-block;
-  padding: 0 10px;
+  padding: 5px 10px;
 }
 
 header ul li:first-child {
