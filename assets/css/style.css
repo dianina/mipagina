@@ -22,13 +22,15 @@ header {
   padding: 19px;
 }
 
+header h2 {
+  padding-top: 0;
+}
+
 .fa-bars {
   padding: 5px 8px;
   border-radius: 5px;
-  margin-left: 470px;
-  margin-top: -20px;
+  margin-left: 120px;
   display: none;
-  
 }
 
 header ul {
