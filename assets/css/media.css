@@ -14,7 +14,7 @@ Version screen
   .container-2 {
     width: 100%;
   }
-}
+} 
  
 /*
 Version mobile
@@ -36,12 +36,25 @@ Version mobile
   }
   
   .fa-bars {
-  margin-left: 50%;
+  margin-left: 100%;
+  margin-top: -30px;
   display: inline-block;
   }
 
   header ul {
     display: none;
+  }
+
+  .main{
+    text-align: center;
+  }
+
+  .btn{
+    margin-left: 100px;
+  }
+
+  .boton{
+    margin-left: 100px;
   }
 }
 
